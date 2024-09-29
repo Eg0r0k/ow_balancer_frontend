@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-dark .card {
+  @apply bg-zinc-900;
+}
+.card {
+  @apply bg-surface-50;
+}

@@ -1,0 +1,20 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "baseUrl": ".",
+    "sourceMap": true,
+    "types": ["vite/client"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@pages/*": ["src/pages/*"],
+      "@app/*": ["src/app/*"]
+    }
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
